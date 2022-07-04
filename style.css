@@ -33,6 +33,6 @@ p {
 }
 
 #main-logo {
-  margin-top: 0px;
   width: 33%;
+  position: fixed;
 }
