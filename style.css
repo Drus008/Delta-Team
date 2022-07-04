@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "LaTeX-font";
+  src: url(fonts/LaTeX-font.otf);
+}
+
+@font-face {
+  font-family: "Manti Sans";
+  src: url(fonts/manti-sans.otf);
+}
+
+
+:root {
+  --delta: #b8860b;
+}
+  
+body {
+  background-color: black;
+  color: var(--delta);
+  font-family: "LaTeX-font";
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1300%;
+  margin: 0px;
+}
+
+p {
+  font-size: 150%;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+#main-logo {
+  margin-top: 0px;
+  width: 33%;
+}
