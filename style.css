@@ -18,6 +18,7 @@ body {
   color: var(--delta);
   font-family: "LaTeX-font";
   text-align: center;
+  margin: 0;
 }
 
 h1 {
@@ -33,6 +34,15 @@ p {
 }
 
 #main-logo {
-  width: 33%;
+  width: 36%;
+  margin: 0;
+}
+
+#contenedor-logo {
   position: fixed;
+  height: 100hv;
+  width: 100%;
+  top: 200px;
+  left: 0;
+  place-items: center;
 }
