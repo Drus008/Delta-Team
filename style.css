@@ -14,7 +14,7 @@
 }
   
 body {
-  background-color: black;
+  background-color: rgb(0, 0, 0);
   color: var(--delta);
   font-family: "LaTeX-font";
   text-align: center;
@@ -34,8 +34,15 @@ p {
 }
 
 #main-logo {
-  width: 36%;
+  width: 31%;
   margin: 0;
+}
+
+#contenedor-titulo {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  place-items: center;
 }
 
 #contenedor-logo {
@@ -45,4 +52,28 @@ p {
   top: 200px;
   left: 0;
   place-items: center;
+  transition: transform 1s ease-in;
+}
+
+
+#flecha {
+  height: 60px;
+  margin-top: 93vh;
+}
+
+#flecha {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+#flecha {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }

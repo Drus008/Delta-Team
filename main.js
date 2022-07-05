@@ -1,6 +1,6 @@
 const zoomElement = document.querySelector("#contenedor-logo");
 let zoom = 1;
-const ZOOM_SPEED = 0.1;
+const ZOOM_SPEED = 0.35;
 
 document.addEventListener("wheel", function (e) {
 	if (e.deltaY > 0) {
