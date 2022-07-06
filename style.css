@@ -28,6 +28,12 @@ h1 {
   margin: 0px;
 }
 
+h2 {
+  font-size: 400%;
+  text-align: left;
+  margin-left: 180px;
+}
+
 p {
   font-size: 150%;
   margin-left: 200px;
@@ -36,8 +42,9 @@ p {
 
 /*Configurar contenedores y imágenes*/
 #main-logo {
-  width: 31%;
+  width: 32%;
   margin: 0;
+  z-index: 1
 }
 
 #contenedor-titulo {
@@ -49,18 +56,19 @@ p {
 
 #contenedor-logo {
   position: fixed;
-  height: 100hv;
+  height: 400hv;
   width: 100%;
   top: 200px;
   left: 0;
   place-items: center;
-  transition: transform 1s ease-in;
+  transition: transform 1s linear;
 }
 
 /*Propiedades de la flecha y sus animaciones*/
 #flecha {
+  position: fixed;
   height: 60px;
-  margin-top: 93vh;
+  margin-top: 92vh;
 }
 
 #flecha {
@@ -78,4 +86,13 @@ p {
 @keyframes mover {
   0% { transform: translateY(0); }
   100% { transform: translateY(-10px); }
+}
+
+#espacio {
+  height: 190vh;
+}
+
+#texto {
+  position: relative;
+  z-index: 2;
 }

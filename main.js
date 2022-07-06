@@ -1,21 +1,17 @@
-/*Elije que elemento se apmpliará y define como de rápido*/
+/*Elije que elemento se apmpliará y lo amplia*/
 const zoomElement = document.querySelector("#contenedor-logo");
-let zoom = 1;
-const ZOOM_SPEED = 0.35;
 
-/*Aplica una transformación lineal cada vez que mueves la rueda del ratón*/
-document.addEventListener("wheel", function (e) {
-	if (e.deltaY > 0) {
-		zoom += ZOOM_SPEED
-		zoomElement.style.transform = `matrix( ${(zoom**2)}, 0, 0, ${(zoom**2)}, ${((zoom-1)*100)}, ${(-(zoom-1)*200)} )`;
-		console.log(e.deltaY);
-		console.log(zoom);
-		}
-		else if (zoom > 0.2) {
-		zoom -= ZOOM_SPEED
-		zoomElement.style.transform = `matrix( ${(zoom**2)}, 0, 0, ${(zoom**2)}, ${((zoom-1)*100)}, ${(-(zoom-1)*200)} )`;
-		console.log(e.deltaY)
+document.addEventListener("scroll", function () {
+
+	let yOffset = window.pageYOffset
+	if (yOffset <1500) {
+	  zoomElement.style.transform = `matrix( ${(1+(yOffset)/50)}, 0, 0, ${(1+(yOffset)/50)}, 0, ${(-yOffset/10)} )`
 	}
-	console.log(e.deltaY);
-	console.log(zoom);
+  
+	else {
+		zoomElement.style.transform = `matrix( 31, 0, 0, 31, 0, -150 )`
+	}
+
+	console.log(window.pageYOffset);
+  
   });
