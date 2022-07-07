@@ -9,13 +9,17 @@
   src: url(fonts/manti-sans.otf);
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /*Establecer propiedades generales*/
 :root {
   --delta: #b8860b;
 }
 
 body {
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   color: var(--delta);
   font-family: "LaTeX-font";
   text-align: center;
@@ -61,7 +65,7 @@ p {
   top: 200px;
   left: 0;
   place-items: center;
-  transition: transform 1s linear;
+  transition: transform 0.8s linear;
 }
 
 /*Propiedades de la flecha y sus animaciones*/

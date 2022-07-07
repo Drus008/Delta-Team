@@ -1,0 +1,2 @@
+
+- Solucionar bug recargar página imagen delta
