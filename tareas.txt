@@ -1,5 +1,5 @@
 - Hacer las distáncias relativas
 
-- Añadir mov cuando pasas raton por título
-
-- Solucionar bug recargar página imagen delta
+- Solucionar bugs:
+    recargar página imagen delta
+    link título ocupa todo el ancho

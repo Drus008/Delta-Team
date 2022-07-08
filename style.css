@@ -18,6 +18,10 @@ html {
   --delta: #b8860b;
 }
 
+a {
+  color: inherit
+}
+
 body {
   background-color: black;
   color: var(--delta);
@@ -55,7 +59,8 @@ p {
   transform: matrix(0, 1, -1, 0, -0, 0);
   float: left;
   margin-left: 10%;
-  margin-top: 22px;
+  margin-top: 20px;
+  transition: margin-left 0.3s ease-in-out;
 }
 
 #main-logo {
