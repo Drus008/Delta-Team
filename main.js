@@ -10,7 +10,7 @@ document.addEventListener("scroll", function () {
   
 	else {
 		zoomElement.style.transform = `matrix( 31, 0, 0, 31, 0, -150 )`
-	}
+	};
 
 	console.log(window.pageYOffset);
   

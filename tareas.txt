@@ -1,2 +1,5 @@
+- Hacer las distáncias relativas
+
+- Añadir mov cuando pasas raton por título
 
 - Solucionar bug recargar página imagen delta
