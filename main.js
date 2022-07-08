@@ -18,9 +18,9 @@ document.addEventListener("scroll", function () {
 
 
 window.onload = function(){
-	document.getElementById("pregunta1").onmouseover = function() { document.getElementById("deltaHorizontal1").style.marginLeft = "11%"}
-  document.getElementById("pregunta1").onmouseout = function() { document.getElementById("deltaHorizontal1").style.marginLeft = "10%"}
+	document.getElementById("pregunta1").onmouseover = function() { document.getElementById("deltaHorizontal1").style.marginRight = "0%"}
+  document.getElementById("pregunta1").onmouseout = function() { document.getElementById("deltaHorizontal1").style.marginRight = "10%"}
 
-  document.getElementById("pregunta2").onmouseover = function() { document.getElementById("deltaHorizontal2").style.marginLeft = "11%"}
-  document.getElementById("pregunta2").onmouseout = function() { document.getElementById("deltaHorizontal2").style.marginLeft = "10%"}
+  document.getElementById("pregunta2").onmouseover = function() { document.getElementById("deltaHorizontal2").style.marginRight = "0%"}
+  document.getElementById("pregunta2").onmouseout = function() { document.getElementById("deltaHorizontal2").style.marginRight = "10%"}
 }
