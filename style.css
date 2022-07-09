@@ -9,8 +9,32 @@
   src: url(fonts/manti-sans.otf);
 }
 
+/*Propiedades de la flecha y sus animaciones*/
+#flecha {
+  bottom: 1vh;
+  position: fixed;
+  height: 8%;
+}
+
 html {
   scroll-behavior: smooth;
+}
+
+#flecha {
+  -webkit-animation: mover 1s infinite  alternate;
+  animation: mover 0.5s infinite  alternate;
+}
+#flecha {
+  -webkit-animation: mover 0.5s infinite  alternate;
+  animation: mover 1s infinite  alternate;
+}
+@-webkit-keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
 }
 
 /*Establecer propiedades generales*/
@@ -50,6 +74,31 @@ p {
 }
 
 /*Configurar contenedores y imágenes*/
+  /*Portada*/
+#main-logo {
+  width: 32%;
+  margin: 0;
+  z-index: 1
+}
+
+#contenedor-titulo {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  left: 0;
+}
+
+#contenedor-logo {
+  position: fixed;
+  height: 400hv;
+  width: 100%;
+  top: 200px;
+  left: 0;
+  place-items: center;
+  transition: transform 0.8s linear;
+}
+
+  /*Main*/
 .cabecera {
   margin-top: 10vh;
   overflow: hidden;
@@ -87,51 +136,4 @@ p {
   margin-top: 190vh;
   position: relative;
   z-index: 2;
-}
-
-#main-logo {
-  width: 32%;
-  margin: 0;
-  z-index: 1
-}
-
-#contenedor-titulo {
-  top: 0;
-  position: fixed;
-  width: 100%;
-  left: 0;
-}
-
-#contenedor-logo {
-  position: fixed;
-  height: 400hv;
-  width: 100%;
-  top: 200px;
-  left: 0;
-  place-items: center;
-  transition: transform 0.8s linear;
-}
-
-/*Propiedades de la flecha y sus animaciones*/
-#flecha {
-  bottom: 1vh;
-  position: fixed;
-  height: 8%;
-}
-
-#flecha {
-  -webkit-animation: mover 1s infinite  alternate;
-  animation: mover 0.5s infinite  alternate;
-}
-#flecha {
-  -webkit-animation: mover 0.5s infinite  alternate;
-  animation: mover 1s infinite  alternate;
-}
-@-webkit-keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
-}
-@keyframes mover {
-  0% { transform: translateY(0); }
-  100% { transform: translateY(-10px); }
 }
