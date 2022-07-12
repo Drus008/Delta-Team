@@ -1,12 +1,12 @@
 /*Importar las fuentes de texto*/
 @font-face {
   font-family: "LaTeX-font";
-  src: url(fonts/LaTeX-font.otf);
+  src: url(Fonts/LaTeX-font.otf);
 }
 
 @font-face {
   font-family: "Manti Sans";
-  src: url(fonts/manti-sans.otf);
+  src: url(Fonts/manti-sans.otf);
 }
 
 /*Propiedades de la flecha y sus animaciones*/

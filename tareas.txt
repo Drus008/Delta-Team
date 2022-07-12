@@ -2,4 +2,4 @@
 
 - Solucionar bugs:
     recargar página imagen delta
-    link título ocupa todo el ancho
+    selector se mueve al reducir la página
