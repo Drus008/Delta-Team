@@ -1,9 +1,9 @@
 /*Importar las fuentes de texto*/
 @font-face {
-    font-family: "LaTeX-font";
-    src: url(Fonts/LaTeX-font.otf);
-  }
-  
+  font-family: "LaTeX-font";
+  src: url(Fonts/LaTeX-font.otf);
+}
+
 
 
 
@@ -82,11 +82,16 @@ nav {
 }
 
 #enlaceLogo {
-  padding-bottom: 5px;
+  padding-bottom: 8px;
   padding-top: 17px;
 }
 
 #cuerpo {
   margin-top: 100px;
   height: 500vh;
+}
+
+#pagActual {
+  border-bottom: 5px solid var(--delta);
+  padding-bottom: 12px;
 }
