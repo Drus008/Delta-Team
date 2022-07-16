@@ -102,8 +102,8 @@ nav {
   display: grid;
   grid-template-columns: 33% 33% 34%;
   grid-auto-rows: 100%;
-  border-bottom: 3px solid var(--delta);
-  border-top: 3px solid var(--delta);
+  border-bottom: 2px solid var(--delta);
+  border-top: 2px solid var(--delta);
 }
 
 .personaFondo {
@@ -134,7 +134,7 @@ nav {
 
 .personaH3 {
   font-size: 250%;
-  margin: 13vh 0 4vh 0;
+  margin: 16vh 0 4vh 0;
 }
 
 .personaP {
