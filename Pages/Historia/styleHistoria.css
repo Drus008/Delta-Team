@@ -25,6 +25,11 @@ body {
   margin: 0 0 0;
 }
 
+#cuerpo {
+  margin-top: 100px;
+  height: 700vh;
+}
+
 h1 {
   font-family: 'Times New Roman', Times, serif;
   font-size: 1300%;
@@ -33,7 +38,7 @@ h1 {
 
 h2 {
   margin-left: 15vw;
-  font-size: 300%;
+  font-size: 400%;
   text-align: left;
 }
 
@@ -44,6 +49,7 @@ p {
   clear: both;
 }
 
+/*Estilo de la cabecera*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -94,10 +100,8 @@ nav {
   padding-top: 17px;
 }
 
-#cuerpo {
-  margin-top: 100px;
-  height: 500vh;
-}
+
+/*Estilo fundadores*/
 
 .personaContenedor {
   display: grid;
@@ -147,6 +151,8 @@ nav {
   opacity: 0;
   transition: all 2.5s ease-out 0.5s
 }
+
+/*Animaciones de aparición*/
 
 .personaFondo.is-visible {
   opacity: 0.1;

@@ -22,6 +22,7 @@ body {
   color: var(--delta);
   font-family: "LaTeX-font";
   text-align: center;
+  margin: 0 0 0 0;
 }
 
 h1 {
@@ -42,6 +43,7 @@ p {
   clear: both;
 }
 
+/*Estilo de la cabecera*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -86,12 +88,14 @@ nav {
   padding-top: 17px;
 }
 
-#cuerpo {
-  margin-top: 100px;
-  height: 500vh;
-}
-
 #pagActual {
   border-bottom: 5px solid var(--delta);
   padding-bottom: 12px;
+}
+
+
+
+#cuerpo {
+  margin-top: 100px;
+  height: 500vh;
 }

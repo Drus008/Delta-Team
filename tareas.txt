@@ -1,4 +1,6 @@
-- Hacer las distáncias relativas
+- Que la pág se adapte a móvil
+- Animaciones Proyectos
+
 
 - Solucionar bugs:
     recargar página imagen delta
