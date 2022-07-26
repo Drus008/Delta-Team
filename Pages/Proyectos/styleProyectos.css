@@ -1,7 +1,7 @@
 /*Importar las fuentes de texto*/
 @font-face {
   font-family: "LaTeX-font";
-  src: url(Fonts/LaTeX-font.otf);
+  src: url(../../Fonts/LaTeX-font.otf);
 }
 
 
